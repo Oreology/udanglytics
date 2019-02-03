@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "317985420769",
+    "firebase_url": "https://shrimplytics.firebaseio.com",
+    "project_id": "shrimplytics",
+    "storage_bucket": "shrimplytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317985420769:android:d2c10fea724c4b83",
+        "android_client_info": {
+          "package_name": "com.example.shrimpalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317985420769-9nv4ae3iul99eib04l2ji6s7cp0gomnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIA2hPKO918K6slDtnU8mow36up55P3aQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317985420769:android:7bd3ad0b6ae75dbe",
+        "android_client_info": {
+          "package_name": "com.example.udanglytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317985420769-9nv4ae3iul99eib04l2ji6s7cp0gomnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIA2hPKO918K6slDtnU8mow36up55P3aQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
