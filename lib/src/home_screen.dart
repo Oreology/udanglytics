@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)
                     ),
                     GaugeIndicator(
-                      inputValue: 0,
+                      inputValue: 0.34,
                       size: 200,
                     ),
                     Text(
@@ -43,14 +43,63 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)
                     ),
                     GaugeIndicator(
-                      inputValue: 0,
+                      inputValue: 0.5,
                       size: 200,
+                    ),
+                    Text(
+                      '14 mg/L',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 12),
                     ),
                   ]
                 )
               ),
             ]
-          )
+          ),
+          Row(
+            children: <Widget>[
+              Card(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'Water Temperature',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)
+                    ),
+                    GaugeIndicator(
+                      inputValue: 0.34,
+                      size: 200,
+                    ),
+                    Text(
+                      '34 mg/L',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 12),
+                    ),
+                  ]
+                )
+              ),
+              Card(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'Ammonia',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)
+                    ),
+                    GaugeIndicator(
+                      inputValue: 0.5,
+                      size: 200,
+                    ),
+                    Text(
+                      '14 mg/L',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 12),
+                    ),
+                  ]
+                )
+              ),
+            ]
+          ),
         ]
       ),
       bottomNavigationBar: BottomAppBar(
