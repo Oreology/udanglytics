@@ -7,12 +7,55 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      body: Center(
-        child: GaugeIndicator(
-          inputValue: 1,
-          size: 200,
-        )
-      )
+      appBar: AppBar(
+        title: Text('Shrimplytics'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Card(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'Dissolved Oxygen',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)
+                    ),
+                    GaugeIndicator(
+                      inputValue: 0,
+                      size: 200,
+                    ),
+                    Text(
+                      '34 mg/L',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 12),
+                    ),
+                  ]
+                )
+              ),
+              Card(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'Ammonia',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)
+                    ),
+                    GaugeIndicator(
+                      inputValue: 0,
+                      size: 200,
+                    ),
+                  ]
+                )
+              ),
+            ]
+          )
+        ]
+      ),
+      bottomNavigationBar: BottomAppBar(
+        child: Container(height: 50.0),
+      ),
     );
   }
 }
